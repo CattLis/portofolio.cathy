@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenue dans mon monde - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Portfolio de Cathy</div>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="hobbies.html">Passe temps</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Bienvenue dans <span class="highlight">mon monde</span></h1>
+          <h2>Étudiante en Informatique</h2>
+          <p>Je m'appelle Cathy, je suis passionnée par la technologie, souriante, curieuse d'apprendre et j'aime partager mes connaissances.</p>
+          <div class="hero-buttons">
+            <a href="about.html" class="btn primary">En savoir plus</a>
+            <a href="contact.html" class="btn secondary">Me contacter</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <img src="IMG_20250529_175025_936.jpg" width="500" alt="Photo de Cathy, étudiante en informatique">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-preview">
+      <div class="container">
+        <div class="about-preview-content">
+          <h2 class="section-title">À propos de <span class="highlight">Moi</span></h2>
+          <p>Je suis une étudiante en informatique passionnée par l'apprentissage de nouvelles technologies et la résolution de problèmes réels par le code. Je crois en l'apprentissage continu et l'amélioration.</p>
+          <a href="about.html" class="btn secondary">En savoir plus</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Bienvenue dans mon monde</div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="hobbies.html">Passe temps</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      document.getElementById('nav-links').classList.toggle('show');
+    });
+  </script>
+</body>
+</html>

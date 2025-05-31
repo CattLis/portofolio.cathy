@@ -1,0 +1,92 @@
+
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propos de moi - Cathy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Cathy</div>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html" class="active">À propos</a></li>
+          <li><a href="hobbies.html">Passe-temps</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>À propos de <span class="highlight">moi</span></h1>
+      </div>
+    </section>
+
+    <section class="about-content">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <h2>Qui je suis</h2>
+            <p>Je suis Cathy, j'ai 18 ans. J'ai fait mes études maternelles, primaires et secondaires au Complexe Scolaire Teresita. Je suis passionnée par la technologie, devenir une grande hackeuse est mon plus grand rêve. J'aime l'ambiance, le luxe et la propreté.</p>
+            
+            <h2>Mon éducation</h2>
+            <div class="education-item">
+              <h3>Actuellement étudiante en sciences informatiques</h3>
+              <p>Université Protestante au Congo</p>
+              <ul>
+                <li>Focus sur le développement web</li>
+                <li>System Design</li>
+              </ul>
+            </div>
+            
+            <h2>Mes objectifs</h2>
+            <p>Devenir une développeuse web experte en cybersécurité, capable de créer des solutions sécurisées et modernes dans un cadre de vie élégant et harmonieux.</p>
+            <p>Évoluer dans l'art oratoire, partager mes connaissances avec passion, et ne jamais cesser d'apprendre, de progresser et de viser l'excellence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Cathy</div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="hobbies.html">Passe-temps</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Cathy. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      document.getElementById('nav-links').classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
